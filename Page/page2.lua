@@ -1,0 +1,15 @@
+{
+  LinearLayout;
+  layout_height="fill";
+  layout_width="fill";
+  orientation="vertical";
+  {
+    ListView;
+    id="friend_list";
+    layout_height="fill";
+    layout_width="fill";
+    DividerHeight=0;
+    VerticalScrollBarEnabled=false;
+    background="#00000000";
+  }
+}
