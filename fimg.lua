@@ -1,0 +1,14 @@
+{
+  LinearLayout,
+  orientation="vertical",
+  layout_width="fill",
+  layout_height="fill",
+  gravity="center",
+  {
+    ImageView;--图片控件
+    layout_width='fill';--图片宽度
+    layout_height='fill';--图片高度
+    id="img";
+    layout_gravity='center';
+  };
+}

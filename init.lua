@@ -1,0 +1,29 @@
+appname="八班通"
+appver="0.1.4.2.8"
+appcode="10999"
+appsdk="15"
+path_pattern=""
+packagename="bbt.mckn.cn"
+theme="Theme_DeviceDefault_Light"
+app_key=""
+app_channel=""
+developer="MCBBS_007"
+description="描述"
+debugmode=true
+user_permission={
+  "ACCESS_NETWORK_STATE",
+  "BIND_ACCESSIBILITY_SERVICE",
+  "CHANGE_WIFI_STATE",
+  "DOWNLOAD_WITHOUT_NOTIFICATION",
+  "GET_PACKAGE_SIZE",
+  "INSTALL_SHORTCUT",
+  "INTERNET",
+  "KILL_BACKGROUND_PROCESSES",
+  "READ_EXTERNAL_STORAGE",
+  "READ_PHONE_STATE",
+  "READ_SMS",
+  "REQUEST_INSTALL_PACKAGES",
+  "SEND_SMS",
+  "WRITE_EXTERNAL_STORAGE",
+  "WRITE_SETTINGS"
+}

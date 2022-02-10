@@ -1,0 +1,20 @@
+{
+  LinearLayout,
+  orientation="vertical",
+  layout_width="fill",
+  layout_height="fill",
+  gravity="center",
+  {
+    ScrollView;
+    layout_width='fill';
+    layout_height='fill';
+    VerticalScrollBarEnabled=false;
+    {
+      TextView,
+      id="txt",
+      text="",
+      layout_height='fill';
+      layout_width="fill",
+    },
+  };
+}
