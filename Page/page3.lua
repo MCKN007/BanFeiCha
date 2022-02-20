@@ -344,20 +344,20 @@
               layout_height="fill";
               layout_width="fill";
               scaleType="fitXY";
-              src="Image/icon/phonelink_ring.png";
+              src="Image/icon/memory.png";
             }
           }
         },
         {
           TextView;
-          text="去水印";
+          text="清内存";
           textSize="17dp";
           textColor="#FF3F3F3F";
           layout_height="fill";
           layout_width="fill";
           layout_weight="1";
           gravity="center|left";
-          id="去水印";
+          id="清内存";
         },
         {
           FrameLayout;
@@ -407,14 +407,14 @@
         },
         {
           TextView;
-          text="捡水晶";
+          text="微信清";
           textSize="17dp";
           textColor="#FF3F3F3F";
           layout_height="fill";
           layout_width="fill";
           layout_weight="1";
           gravity="center|left";
-          id="捡水晶";
+          id="微信清";
         },
         {
           FrameLayout;
@@ -453,7 +453,7 @@
               layout_height="fill";
               layout_width="fill";
               scaleType="fitXY";
-              src="Image/icon/discover_youxi.jpg";
+              src="Image/icon/clear.png";
             }
           }
         },
