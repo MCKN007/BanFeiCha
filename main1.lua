@@ -495,26 +495,18 @@ end
 activity.getLuaDir()
     otxt(activity.getLuaDir().."/Chenyulu/1.txt")
 end
-去水印.onClick = function()
- activity.newActivity("/new/zzy.lua")--跳转页面
--- print("hhj")
-  end
-捡水晶.onClick = function()
-  activity.newActivity("duobao")--跳转页面
-  end微信清.onClick = function()
+微信清.onClick = function()
   os.execute("rm -r ".."/storage/emulated/0/Android/data/com.tencent.mm/")
   --import "java.io.File"--导入File类
  -- File("/storage/emulated/0/Android/data/com.tencent.mm/").delete()
 end
-
-
 清内存.onClick = function()
-  os.execute("rm -r ".."/storage/emulated/0/Android/data/com.tencent.tim")
-  os.execute("rm -r ".."/storage/emulated/0/tencent/QQ_Images")
-  os.execute("rm -r ".."/storage/emulated/0/tencent/QQfile")
-  os.execute("rm -r ".."/storage/emulated/0/download")
-  os.execute("rm -r ".."/storage/emulated/0/Pictures/Screenshots")
-  os.execute("rm -r ".."/storage/emulated/0/Pictures/WeiXin")
+  os.execute("rm -rf ".."/storage/emulated/0/Android/data/com.tencent.tim")
+  os.execute("rm -rf ".."/storage/emulated/0/tencent/QQ_Images")
+  os.execute("rm -rf ".."/storage/emulated/0/tencent/QQfile_recv")
+  os.execute("rm -rf ".."/storage/emulated/0/download")
+  os.execute("rm -rf ".."/storage/emulated/0/Pictures/Screenshots")
+  os.execute("rm -rf ".."/storage/emulated/0/Pictures/WeiXin")
   end
 
 
