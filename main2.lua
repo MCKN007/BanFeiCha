@@ -433,7 +433,8 @@ function Mengyuan()
   print("正在开发中")
 end
 
-local img={"Image/icon/report.png","Image/icon/report.png","Image/icon/report.png"}--,"Image/icon/report2.png","Image/icon/report.png"}
+local img={"Image/icon/report.png","Image/icon/report.png","Image/icon/report.png"}
+--,"Image/icon/report2.png","Image/icon/report.png"}
 local tle={"向班主任发送匿名举报","向马思硕发送匿名举报","向胡帅豪发送匿名举报",""}
 
 adapter2=LuaAdapter(activity,item2)
