@@ -10,20 +10,23 @@ activity.setTheme(android.R.style.Theme_DeviceDefault)--设置主题
 activity.setContentView(loadlayout(passwd))
 activity.setTitle('模式选择BFUI')
 
+--主页，main，一个程序只能有一个main
+--main是程序的入口，当软件运行时，首先加载main
 
-
-mckn_a_002.onClick = function()
-  if mckn_a_001.Text =="Administration"
+mckn_a_002.onClick = function()--按钮1
+  if mckn_a_001.Text =="Administration"--当文本等于Administration时
     activity.newActivity("main2")
+    --进入main2.lua的界面，main2.lua可写.lua可不写，如果有同名的aly文件必须添加.lua，但一把跳转aly文件不用这个语句
    else
     activity.newActivity("main1")
+    --如果文本编辑框的内容不等于Administration时，则进入main1
   end
 end
-mckn_a_003.onClick = function()
-  if mckn_a_001.Text =="qqq"
-    activity.newActivity("root1")
+mckn_a_003.onClick = function()--按钮2
+  if mckn_a_001.Text =="root"--文本等于root时
+    activity.newActivity("root1")--跳转页面到root1
    else
-    print("请输入管理员密钥")
+    print("请输入管理员密钥")--否则，则提示输入管理员密钥
   end
 end
 
