@@ -39,7 +39,7 @@
       {
         TextView;
         id="custom_name";
-        text="管理员：胡帅豪";
+        text="管理员：马思硕";
         textSize="23dp";
         textColor="#FF3F3F3F";
         layout_height="58dp";
