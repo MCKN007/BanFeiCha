@@ -39,7 +39,7 @@
       {
         TextView;
         id="custom_name";
-        text="管理员：MCKN007";
+        text="管理员：MCKN007";--第四个页面显示的管理员名称
         textSize="23dp";
         textColor="#FF3F3F3F";
         layout_height="58dp";
@@ -60,7 +60,7 @@
           layout_width="fill";
           layout_weight="1";
           gravity="center|left";
-          id="__bandck1";
+          id="__bandck1";--文本id，设置之后点击对应id的文本就会去执行指令
         },
         {
           FrameLayout;
