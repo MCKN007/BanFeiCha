@@ -16,15 +16,18 @@ activity.setTitle('模式选择BFUI')
 mckn_a_002.onClick = function()--按钮1
   if mckn_a_001.Text =="Administration"--当文本等于Administration时
     activity.newActivity("main2")
+    activity.finish()--关闭当前页面
     --进入main2.lua的界面，main2.lua可写.lua可不写，如果有同名的aly文件必须添加.lua，但一把跳转aly文件不用这个语句
    else
     activity.newActivity("main1")
+    activity.finish()--关闭当前页面
     --如果文本编辑框的内容不等于Administration时，则进入main1
   end
 end
 mckn_a_003.onClick = function()--按钮2
   if mckn_a_001.Text =="root"--文本等于root时
     activity.newActivity("root1")--跳转页面到root1
+    activity.finish()--关闭当前页面
    else
     print("请输入管理员密钥")--否则，则提示输入管理员密钥
   end
