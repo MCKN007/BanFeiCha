@@ -27,35 +27,6 @@ end
 
 pop=PopupMenu(activity,bfc1)
 bfc1=pop.Menu
-require "import"
-import "android.app.*"
-import "android.os.*"
-import "android.widget.*"
-import "android.view.*"
-import "mods.JingCai"
-import "Item.item"
-import "Item.item2"
-import "mson"
-import "ss"
-activity.ActionBar.hide()--隐藏标题栏
---activity.setContenView(loadlayout(layout1))
-activity.setTheme(android.R.style.Theme_DeviceDefault)--设置主题
-
-
-activity.setContentView(loadlayout("layout"))
-
-steepin(0x00000000)
-fakeboldtext(title)
-fakeboldtext(custom_name)
-ripplehelper(search,0x15000000)
-ripplehelper(bfc1,0x15000000)
-ripplehelper(photo,0x15000000)
-search.onClick=function()
-  activity.newActivity("search_main",android.R.anim.fade_in,android.R.anim.fade_out)
-end
-
-pop=PopupMenu(activity,bfc1)
-bfc1=pop.Menu
 --menu菜单控件，因为menu是lua关键字，所以不能把id定位menu或者Menu
 bfc1.add("软件版本").onMenuItemClick=function(v)
   print("八班通0.1.4.2.9")
