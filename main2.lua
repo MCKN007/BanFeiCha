@@ -6,7 +6,7 @@ import "android.view.*"
 import "mods.JingCai"
 import "Item.item"
 import "Item.item2"
-import "mson"
+import "MBFC"
 import "ss"
 activity.ActionBar.hide()--隐藏标题栏
 --activity.setContenView(loadlayout(layout1))

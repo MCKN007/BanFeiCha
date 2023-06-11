@@ -2,7 +2,7 @@ require "import"
 import "android.app.*"
 import "android.os.*"
 import "android.widget.*"
-import "mson"
+import "MBFC"
 --不可以随意改
 
 activity.ActionBar.hide()--隐藏标题栏

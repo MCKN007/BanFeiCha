@@ -4,7 +4,7 @@ import "android.os.*"
 import "android.widget.*"
 import "android.view.*"
 import "mods.JingCai"
-import"mson"
+import"MBFC"
 
 activity.ActionBar.hide()--隐藏标题栏
 

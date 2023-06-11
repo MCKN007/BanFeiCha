@@ -15,6 +15,7 @@
       text="",
       layout_height='fill';
       layout_width="fill",
+      layout_gravity='center';
     },
   };
 }
